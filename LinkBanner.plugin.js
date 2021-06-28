@@ -14,8 +14,8 @@ module.exports = class LinkBanner {
     }
 
     link({target}) {
-        console.log(target.style.backgroundImage)
-        if (target.classList.contains("banner-2QYc2d") && target.style.backgroundImage) {
+        let mod = BdApi.findModuleByProps("banner", "bannerOverlay").banner 
+        if (target.classList.contains(mod) && target.style.backgroundImage) {
             let url = target.style.backgroundImage
             url = url.substring(4, url.length-1).replace(/["']/g, "")
             window.open(url.replace(/(?:\?size=\d{3,4})?$/, "?size=4096"), "_blank");

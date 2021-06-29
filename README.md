@@ -1,6 +1,6 @@
 # LinkBanner
 
-[LinkProfilePicture](https://betterdiscord.app/plugin/Link-Profile-Picture) but for user banners
+> [LinkProfilePicture](https://betterdiscord.app/plugin/Link-Profile-Picture) but for user banners
 Thanks to [Square](https://betterdiscord.app/developer/square) for creating the original 
 
 A plugin to open a user's banner in the browser 

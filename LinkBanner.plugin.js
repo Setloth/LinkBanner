@@ -13,7 +13,6 @@ module.exports = class LinkBanner {
         document.removeEventListener("click", this.link);
     }
     link({target}) {
-        console.log(target)
         if (target.style.backgroundImage && target.style.backgroundImage.includes("banner")) {
             let url = target.style.backgroundImage
             url = url.substring(4, url.length-1).replace(/["']/g, "")

@@ -7,10 +7,10 @@
 
 module.exports = class LinkBanner {
     start() {
-        document.addEventListener("click", this.link);
+        document.addEventListener("click", this.link)
     }
     stop() {
-        document.removeEventListener("click", this.link);
+        document.removeEventListener("click", this.link)
     }
     link({target}) {
         if (target.style.backgroundImage && target.style.backgroundImage.includes("banner")) {
@@ -19,6 +19,5 @@ module.exports = class LinkBanner {
             url = url.replace(/(?:\?size=\d{3,4})?$/, "?size=4096")
             window.open(url)
         }
-        
     }
 }

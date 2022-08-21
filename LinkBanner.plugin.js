@@ -1,8 +1,8 @@
 /**
  * @name LinkBanner
  * @author Echology
- * @version 2.0.1
- * @description Allows you to click on a user's banner to open it in the browser
+ * @version 2.1.0
+ * @description Allows you to click on a user's banner to open it in the browser, this will NOT allow you to have your own banner without paying for nitro.
  */
 
 module.exports = class LinkBanner {
